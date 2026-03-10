@@ -71,7 +71,10 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="px-6 py-2 rounded-2xl bg-blue-700 text-white cursor-pointer font-semibold hover:bg-blue-800 transition">
+              <button
+                className="px-5 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium shadow-lg
+                                   hover:scale-105 hover:shadow-2xl transition transform duration-300"
+              >
                 View Resume
               </button>
             </a>

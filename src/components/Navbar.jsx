@@ -70,10 +70,8 @@ const Navbar = () => {
                     onClick={() => setOpenMenu(false)}
                     className="cursor-pointer hover:text-blue-600"
                   >
-                    <button className="px-2 py-1 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium shadow-lg
-                     hover:scale-105 hover:shadow-2xl transition transform duration-300">
-                      {item.name}
-                    </button>
+                    
+                    {item.name}
                   </ScrollLink>
                 </li>
               ))}
