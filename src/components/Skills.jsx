@@ -6,7 +6,7 @@ const tools = ["Git","Github","Postman","Docker","Vercel"];
 
 const Skills = () => {
   return (
-    <div className="px-5 mt-16 pb-10 bg-[#f9f9f9]">
+    <div className="px-5 mt-16 pb-10 md:pt-28 pt-20 bg-[#f9f9f9]" id="skills">
       {/* title */}
       <h1 className="text-center text-3xl md:text-4xl font-bold mb-10">Skills</h1>
 

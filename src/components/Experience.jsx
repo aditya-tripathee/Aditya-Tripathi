@@ -2,16 +2,17 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="bg-[#f9f9f9] mt-16">
+    <div className="bg-[#f9f9f9] mt-10  md:pt-28 pt-10" id="experience">
       <h1 className="text-3xl md:text-4xl font-bold  text-center">
         Experience
       </h1>
       <div className="w-full max-w-5xl px-5 py-5 border border-gray-200 mx-auto mt-10 rounded-2xl shadow-md bg-white">
         <h1 className="text-2xl font-bold">Ridezzup.com</h1>
         <div className="flex justify-between items-center">
-          <h3 className="font-semibold md:text-xl text-11px">
+          <h3 className="font-semibold text-xs font-semibold text-blue-700">
             Frontend Web Developer Intern{" "}
           </h3>
+          <br/>
           <div className="">
             <h5 className=" text-blue-700 font-semibold text-[10px]">Remote</h5>
             <p className="text-[10px]">July 2025 - October 2025</p>

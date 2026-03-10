@@ -74,7 +74,7 @@ It provides robust RESTful APIs and secure database management for efficient hos
 
 const Project = () => {
   return (
-    <div className="mt-16 px-5 pb-10 bg-[#f9f9f9]">
+    <div className="mt-16 px-5 pb-10 bg-[#f9f9f9] md:pt-28 pt-20" id="projects">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-10">
         Projects
       </h1>

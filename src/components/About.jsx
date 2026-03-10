@@ -1,51 +1,84 @@
 import React from "react";
-import Img from "../assets/Img.png";
+import Img from "../assets/Image.png";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
+import { motion } from "motion/react";
 
 const About = () => {
   return (
-    <section className="px-5 mt-16 pb-10 bg-[#f9f9f9]">
-      
-      {/* Title */}
-      <h1 className="text-center text-3xl md:text-4xl font-bold mb-10">
-        About Me
-      </h1>
-
+    <section className="px-5 mt-20 pb-10 bg-[#f9f9f9] md:pt-28 pt-20" >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-
-        {/* Image */}
-        <div className="md:w-1/2 flex justify-center">
-          <img
-            src={Img}
-            alt="Aditya"
-            className="w-72 h-72 md:w-80 md:h-80 object-cover rounded-full shadow-lg border-4 border-white"
-          />
-        </div>
-
         {/* Text Content */}
-        <div className="md:w-1/2 bg-white border border-gray-200 px-8 py-8 rounded-2xl shadow-md">
+        <motion.div
+          
+           whileHover={{ opacity: 0.9, scale: 1.03 }}
+                whileTap={{ opacity: 1, scale: 0.98 }}
+          className="md:w-1/2 bg-white border border-gray-200 px-8 py-8 rounded-2xl shadow-md "
+        >
           <h2 className="font-bold text-2xl mb-4 text-blue-700">
             Aspiring Developer 🚀
           </h2>
 
           <p className="text-gray-600 text-sm md:text-lg leading-relaxed">
-            Hi, I'm <span className="font-semibold">Aditya Tripathi</span>. 
-            I completed my B.Tech in Computer Science from 
+            Hi, I'm <span className="font-semibold">Aditya Kumar Tripathi</span>
+            . I completed my B.Tech in Computer Science from
             <span className="font-semibold">
-              {" "}Dr. A.P.J Abdul Kalam Technical University
-            </span>.
-            <br /><br />
-
+              {" "}
+              Dr. A.P.J Abdul Kalam Technical University
+            </span>
+            .
+            <br />
+            <br />
             I enjoy building modern web applications and solving real-world
             problems through code. My interests lie in full-stack development,
             cloud technologies, and scalable software systems.
-            <br /><br />
-
+            <br />
+            <br />
             <span className="font-semibold">Tech Stack:</span>
             <br />
             C++ • SQL • Nodejs • JavaScript • React.js • Redux
           </p>
-        </div>
 
+          <div className="mt-5">
+            <a
+              href="https://drive.google.com/file/d/1u-hD2AWinP-nfpBhNx_vDMQ4mxujqL_x/view?usp=drive_link/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-6 py-2 rounded-md bg-blue-700 text-white cursor-pointer font-semibold hover:bg-blue-800 transition">
+                View Resume
+              </button>
+            </a>
+          </div>
+        </motion.div>
+
+      {/* images */}
+
+        <motion.div
+          initial={{ opacity: 0, y: -40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="md:w-1/2 flex justify-center relative"
+        >
+          {/* Rotating Gradient Ring */}
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
+            className="absolute w-[340px] h-[340px] rounded-full 
+    bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-md opacity-60"
+          />
+
+          {/* Profile Image */}
+          <motion.img
+            src={Img}
+            alt="Aditya"
+            animate={{ y: [0, -15, 0] }}
+            transition={{ repeat: Infinity, duration: 3 }}
+            className="relative w-80 h-80 md:w-100 md:h-100 object-cover rounded-full 
+    shadow-2xl border-4 border-white"
+          />
+        </motion.div>
       </div>
     </section>
   );
