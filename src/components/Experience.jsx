@@ -15,7 +15,7 @@ const Experience = () => {
             <h2 className="text-2xl font-bold text-gray-900">Ridezzup.com</h2>
 
             <div className="flex flex-wrap gap-3 mt-3 md:mt-0">
-              <span className="px-3 py-1 rounded-sm bg-gradient-to-r from-blue-500 to-purple-600 text-white 
+              <span className="px-3 py-1 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 text-white 
               font-medium shadow-lg
               hover:scale-105 hover:shadow-2xl transition transform duration-300">
                 Frontend Web Developer Intern
