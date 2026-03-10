@@ -3,6 +3,9 @@ import Grocy from "../assets/Grocy.png";
 import JobHunt from "../assets/JobHunt.png";
 import ITM from "../assets/itm.png";
 import Resumly from "../assets/Resumly.png";
+import { FaGlobe } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 const projects = [
   {
@@ -122,9 +125,9 @@ const Project = () => {
                     href={project.viewDemo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-600 text-white px-3 py-1 rounded-md text-sm hover:bg-blue-700 transition"
+                    className="border text-black px-5 py-2 rounded-md text-sm  transition"
                   >
-                    Live Demo
+                    <FaGlobe  size={20}/>
                   </a>
                 )}
                 {project.projectDetails && (
@@ -132,9 +135,9 @@ const Project = () => {
                     href={project.projectDetails}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border px-3 py-1 rounded-md text-sm hover:bg-gray-100 transition"
+                    className="border px-5 py-2 rounded-md text-sm hover:bg-gray-100 transition"
                   >
-                    GitHub
+                    <FaGithub size={20}/>
                   </a>
                 )}
               </div>

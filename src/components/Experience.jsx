@@ -1,34 +1,49 @@
+
 import React from "react";
 
 const Experience = () => {
   return (
-    <div className="bg-[#f9f9f9] mt-10  md:pt-28 pt-10" id="experience">
-      <h1 className="text-3xl md:text-4xl font-bold  text-center">
+    <div className="bg-[#f9f9f9] mt-10 md:pt-28 pt-10" id="experience">
+      <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800">
         Experience
       </h1>
-      <div className="w-full max-w-5xl px-5 py-5 border border-gray-200 mx-auto mt-10 rounded-2xl shadow-md bg-white">
-        <h1 className="text-2xl font-bold">Ridezzup.com</h1>
-        <div className="flex justify-between items-center">
-          <h3 className="font-semibold text-xs font-semibold text-blue-700">
-            Frontend Web Developer Intern{" "}
-          </h3>
-          <br/>
-          <div className="">
-            <h5 className=" text-blue-700 font-semibold text-[10px]">Remote</h5>
-            <p className="text-[10px]">July 2025 - October 2025</p>
+
+      <div className="flex flex-col gap-8 mt-10 max-w-5xl mx-auto px-5">
+        {/* Experience Card */}
+        <div className="bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 border border-gray-200">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+            <h2 className="text-2xl font-bold text-gray-900">Ridezzup.com</h2>
+
+            <div className="flex flex-wrap gap-3 mt-3 md:mt-0">
+              <span className="px-4 py-1 bg-blue-600 text-white rounded-2xl text-xs font-semibold">
+                Frontend Web Developer Intern
+              </span>
+              <span className="px-4 py-1 bg-gray-900 text-gray-200 rounded-2xl text-xs font-medium">
+                July - October 2025
+              </span>
+              {/* Uncomment if you want location/remote */}
+              {/* <span className="px-4 py-1 bg-green-600 text-white rounded-2xl text-xs font-medium">Remote</span> */}
+            </div>
           </div>
-        </div>
-        <div className="w-[70%] ">
-          <p className="md:text-sm text-[10px] font-medium text-gray-700">
-            I worked as a Frontend Developer Intern at Ridezupp, building
-            responsive and interactive web interfaces using React, JavaScript,
-            and Tailwind CSS, focusing on problem-solving, enhancing user
-            experience, and delivering efficient, maintainable solutions.
+
+          <p className="mt-4 text-gray-700 text-sm md:text-base leading-relaxed">
+            I worked as a Frontend Developer Intern at Ridezzup, building
+            responsive and interactive web interfaces using <strong>React</strong>, 
+            <strong> JavaScript</strong>, and <strong>Tailwind CSS</strong>. 
+            I focused on <strong>problem-solving, enhancing user experience</strong>, 
+            and delivering efficient, maintainable solutions.
           </p>
         </div>
+
+        {/* You can duplicate this card for more experiences */}
       </div>
     </div>
   );
 };
 
 export default Experience;
+
+
+
+
+

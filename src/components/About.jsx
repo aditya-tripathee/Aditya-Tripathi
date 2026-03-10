@@ -4,16 +4,21 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import { motion } from "motion/react";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="px-5 mt-20 pb-10 bg-[#f9f9f9] md:pt-28 pt-20" >
+    <section className="px-5 mt-20 pb-10 bg-[#f9f9f9] md:pt-28 pt-20">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Text Content */}
         <motion.div
-          
-           whileHover={{ opacity: 0.9, scale: 1.03 }}
-                whileTap={{ opacity: 1, scale: 0.98 }}
+          whileHover={{ opacity: 0.9, scale: 1.03 }}
+          whileTap={{ opacity: 1, scale: 0.98 }}
           className="md:w-1/2 bg-white border border-gray-200 px-8 py-8 rounded-2xl shadow-md "
         >
           <h2 className="font-bold text-2xl mb-4 text-blue-700">
@@ -30,14 +35,34 @@ const About = () => {
             .
             <br />
             <br />
-            I enjoy building modern web applications and solving real-world
-            problems through code. My interests lie in full-stack development,
-            cloud technologies, and scalable software systems.
+            I love building modern, responsive web applications and solving
+            real-world problems through elegant code. My focus areas include
+            full-stack development, cloud technologies, and scalable software
+            systems.
             <br />
             <br />
-            <span className="font-semibold">Tech Stack:</span>
+            <span className="font-semibold text-xl">Tech Stack:</span>
             <br />
-            C++ • SQL • Nodejs • JavaScript • React.js • Redux
+            <ul className="flex gap-4 mt-1 text-2xl items-center">
+              <li>
+                <IoLogoJavascript />
+              </li>
+              <li>
+                <FaNodeJs />
+              </li>
+              <li>
+                <SiExpress />
+              </li>
+              <li>
+                <SiMongodb />
+              </li>
+              <li>
+                <SiMysql />
+              </li>
+              <li>
+                <FaReact />
+              </li>
+            </ul>
           </p>
 
           <div className="mt-5">
@@ -46,14 +71,14 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="px-6 py-2 rounded-md bg-blue-700 text-white cursor-pointer font-semibold hover:bg-blue-800 transition">
+              <button className="px-6 py-2 rounded-2xl bg-blue-700 text-white cursor-pointer font-semibold hover:bg-blue-800 transition">
                 View Resume
               </button>
             </a>
           </div>
         </motion.div>
 
-      {/* images */}
+        {/* images */}
 
         <motion.div
           initial={{ opacity: 0, y: -40 }}
