@@ -18,7 +18,7 @@ const Footer = () => {
            <div className="">
                      <ul className="flex justify-center items-center gap-4">
                        <a
-                         href="https://www.linkedin.com/in/adii-tripathii/"
+                         href="https://www.linkedin.com/in/aditya-tripathee/"
                          target="_blank"
                          rel="noopener noreferrer"
                        >
@@ -27,7 +27,7 @@ const Footer = () => {
                          </li>
                        </a>
                        <a
-                         href="https://leetcode.com/u/adii_tripathii/"
+                         href="https://leetcode.com/u/aditya-tripathee/"
                          target="_blank"
                          rel="noopener noreferrer"
                        >
