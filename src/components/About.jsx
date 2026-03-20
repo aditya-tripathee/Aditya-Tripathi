@@ -67,7 +67,7 @@ const About = () => {
 
           <div className="mt-5">
             <a
-              href="https://drive.google.com/file/d/1NKtkxphGy7V-3_pau65wGmo8Vjx25vAq/view?usp=drive_link"
+              href="https://drive.google.com/file/d/13Cb8jfheLbOOSUw03O-mOdJQUr5Yv-Vs/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
