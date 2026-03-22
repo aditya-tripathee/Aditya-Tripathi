@@ -17,7 +17,7 @@ const Experience = () => {
             <div className="flex flex-wrap gap-3 mt-3 md:mt-0">
               <span className="px-3 py-1 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 text-white 
               font-medium shadow-lg
-              hover:scale-105 hover:shadow-2xl transition transform duration-300">
+              hover:scale-105 hover:shadow-2xl transition transform duration-300 text-sm">
                 Frontend Web Developer Intern
               </span>
               <span className="px-4 py-1 bg-gray-900 text-gray-200 rounded-2xl text-xs font-medium">
