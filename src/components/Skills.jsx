@@ -1,7 +1,7 @@
 import React from "react";
 
 const languages = ["JavaScript","C++"];
-const webs = ["ReactJS","NodeJS","ExpressJS","HTML5","CSS3","MongoDB","Tailwind CSS"];
+const webs = ["ReactJS","NodeJS","ExpressJS","HTML5","CSS3","MongoDB","Tailwind CSS","MySQL"];
 const tools = ["Git","Github","Postman","Docker","Vercel"];
 
 const Skills = () => {
