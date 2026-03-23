@@ -2,7 +2,9 @@ import React from "react";
 
 const languages = ["JavaScript","C++"];
 const webs = ["ReactJS","NodeJS","ExpressJS","HTML5","CSS3","MongoDB","Tailwind CSS","MySQL"];
-const tools = ["Git","Github","Postman","Docker","Vercel"];
+const frontend = ["HTML5","CSS3","Tailwind CSS","Prebuilt UI","Framer Motion","React.js"],
+const backend = ["Node.js","Express.js","REST APIs","JWT Authentication"]  
+const tools = ["MySQL","MongoDB","Git","Github","Postman","Docker","Vercel"];
 
 const Skills = () => {
   return (
@@ -14,9 +16,10 @@ const Skills = () => {
         {/* Languages */}
         <SkillCard title="Languages" skills={languages} />
         {/* Web Technologies */}
-        <SkillCard title="Web Technologies" skills={webs} />
+        <SkillCard title="Frontend Technologies" skills={frontend} />
+        <SkillCard title="Backend Technologies" skills={backend} />
         {/* Tools */}
-        <SkillCard title="Tools" skills={tools} />
+        <SkillCard title="Database & Tools" skills={tools} />
       </div>
     </div>
   );
