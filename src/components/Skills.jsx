@@ -19,7 +19,7 @@ const Skills = () => {
         <SkillCard title="Frontend Technologies" skills={frontend} />
         <SkillCard title="Backend Technologies" skills={backend} />
         {/* Tools */}
-        <SkillCard title="Database & Tools" skills={tools} />
+        <SkillCard title="Databases & Tools" skills={tools} />
       </div>
     </div>
   );
