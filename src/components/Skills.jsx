@@ -2,7 +2,7 @@ import React from "react";
 
 const languages = ["JavaScript","C++","Typescript"];
 const webs = ["ReactJS","NodeJS","ExpressJS","HTML5","CSS3","MongoDB","Tailwind CSS","MySQL"];
-const frontend = ["HTML5","CSS3","Tailwind CSS","Prebuilt UI","Framer Motion","ShadCN","React.js","Next.js"];
+const frontend = ["HTML5","CSS3","Tailwind CSS","Prebuilt UI","Framer Motion","ShadCN","React.js","Next.js","Redux Toolkit"];
 const backend = ["Node.js","Express.js","REST APIs","JWT Authentication"];
 const tools = ["MySQL","MongoDB","Git","Github","Postman","Docker","Vercel"];
 
