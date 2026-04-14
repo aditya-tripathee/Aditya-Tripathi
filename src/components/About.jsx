@@ -67,7 +67,7 @@ const About = () => {
 
           <div className="mt-5">
             <a
-              href="https://drive.google.com/drive/u/0/my-drive"
+              href="https://drive.google.com/file/d/10SnxOjEodlKyYYGaNPWDEMMUWyBFDue7/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
