@@ -21,7 +21,7 @@ const Experience = () => {
                 Frontend Web Developer Intern
               </span>
               <span className="px-4 py-1 bg-gray-900 text-gray-200 rounded-2xl text-xs font-medium">
-                July - October 2025
+                Jan - March 2026
               </span>
               {/* Uncomment if you want location/remote */}
               {/* <span className="px-4 py-1 bg-green-600 text-white rounded-2xl text-xs font-medium">Remote</span> */}
