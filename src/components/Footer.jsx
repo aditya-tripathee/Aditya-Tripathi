@@ -66,7 +66,7 @@ const Footer = () => {
                      </ul>
                    </div>
            
-           <meta name="google-adsense-account" content="ca-pub-7974570422460764">
+          
 
           </ul>
         </div>
